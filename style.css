@@ -46,7 +46,8 @@ input[type="button"] {
     display: inline-block;
     padding: 5px;
     border-radius: 30px;
-    background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000, #ffff00);
+    background: rgb(71,253,29);
+background: linear-gradient(86deg, rgba(71,253,29,1) 0%, rgba(236,12,12,1) 67%);
     overflow: hidden;
     width: 60%;
 }
@@ -69,7 +70,7 @@ input[type="button"] {
     flex-direction: row;
     width: 30px;
     font-size: 20px;
-    color: white;
+    color: black;
     white-space:nowrap;
     margin: 0 1rem 1rem 0;
     margin-bottom: 50px;
