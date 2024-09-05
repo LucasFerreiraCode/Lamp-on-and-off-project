@@ -62,3 +62,10 @@ input[type="button"] {
     filter: blur(50px);
     animation: animate-border 5s linear infinite;
 }
+
+.text-modo {
+    flex-direction: row;
+    width: 30px;
+    font-size: 20px;
+    color: white;
+}

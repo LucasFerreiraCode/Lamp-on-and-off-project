@@ -1,21 +1,32 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Página Teste</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
 
-    <div class="content">
-        <div class="img-wrapper">
-            <img id="bulb" src="./img/Lampada apagada.webp" alt=""> 
-        </div>
-        <br><br>
-        <input type="button" onclick="myfunon()" id="on" value="ON" class="btn-on">
-        <input type="button" onclick="myfunonoff()" id="off" value="OFF" class="btn-off">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página Teste</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="content">
+    <div class="img-wrapper">
+      <img id="bulb" src="./img/Lampada apagada.webp" alt="">
     </div>
+    <br><br>
+    <input type="button" onclick="myfunon()" id="on" value="ON" class="btn-on">
+    <input type="button" onclick="myfunonoff()" id="off" value="OFF" class="btn-off">
+  </div>
+  <h1 class="text-modo">Dark and light mode</h1>
+
+
+  <div class="trilho">
+    <div class="indicador"></div>
+  </div>
+
+
   <script src="./script.js"></script>
 </body>
+
 </html>
